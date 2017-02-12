@@ -8,6 +8,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -15,44 +18,65 @@ import org.json.JSONObject;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView tv;
-    ListView lv;
-    JSONObject jsonObject;
-    String num;
+    private ListView lv;
+    private JSONObject jsonObject;
+    private JSONArray articles;
+    private List<String> toRender;
+
+    public MainActivity() {
+        this.toRender = new ArrayList<>();
+    }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //inherited behvaior
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv = (TextView)findViewById(R.id.test);
-        lv = (ListView)findViewById(R.id.ourlist);
+
+        //get the list view from the xml
+        lv = (ListView)findViewById(R.id.listen_up);
+
+        //download the data
         MyDownloadTask download = new MyDownloadTask();
         download.execute();
         while (download.json == "") {
-            Log.d("test", "ITS EMPTY");
         }
-        Log.d("yo", download.json);
+
+        //the data is returned in the format of a jsonObject, the very last field of
+        //the jsonObject is articles
+        //articles
+        //each of these is a JSON Object
+        //with an author, title, description, url, urlToImage, and publishedAt
         try {
             jsonObject = new JSONObject(download.json);
-            num = Integer.toString(jsonObject.length());
+            articles = (JSONArray) jsonObject.get("articles");
+            getListViewString(articles, this.toRender);
         } catch (JSONException e) {
             Log.e("ERROR", e.getMessage(), e);
             e.printStackTrace();
         }
-        String[] testArray = {"hello", "world", "fux", "wid", "us"};
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.text, testArray);
 
-        lv = (ListView) findViewById(R.id.ourlist);
+        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.text, this.toRender);
+        lv = (ListView) findViewById(R.id.listen_up);
         lv.setAdapter(adapter);
-        Log.d("JSON", num);
     }
 
-    class MyDownloadTask extends AsyncTask<Void,Void,String>
-    {
+    private void getListViewString(JSONArray jsonArray, List<String> ret) throws JSONException {
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject obj = (JSONObject) jsonArray.get(i);
+            ret.add(obj.get("author").toString());
+            ret.add(obj.get("title").toString());
+            ret.add(obj.get("description").toString());
+            ret.add(obj.get("url").toString());
+            ret.add(obj.get("urlToImage").toString());
+            ret.add(obj.get("publishedAt").toString());
+        }
+    }
+
+    class MyDownloadTask extends AsyncTask<Void,Void,String> {
         String json;
         MyDownloadTask() {
             json = "";
