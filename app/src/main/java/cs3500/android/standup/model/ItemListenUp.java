@@ -19,7 +19,7 @@ public class ItemListenUp  {
     private String sourcePreview = "";
     private String sourceDate = "";
     private String source = "";
-    private Image featurePhoto = ;
+//    private Image featurePhoto = ;
 
     public void setName(String headline) {
         this.headline = headline;
@@ -53,11 +53,11 @@ public class ItemListenUp  {
         return source;
     }
 
-    public void setFeaturePhoto(Image featurePhoto) {
+  /*  public void setFeaturePhoto(Image featurePhoto) {
         this.featurePhoto = featurePhoto;
     }
 
     public Image getFeaturePhoto () {
         return featurePhoto;
-    }
+    }*/
 }
