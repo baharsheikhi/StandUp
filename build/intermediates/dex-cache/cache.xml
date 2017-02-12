@@ -2,202 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_511c4f65f0d3def41251decd24be5a5ae38984ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_709aa3484cfd6d76c9b5c12e65de9fa0edf869d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_cdbc3968ce4e809bffae6c2f141aa11d83f5b1d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_85df5767f98b642748343076c424e18f6d312998/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="15cb340e308eebdce068001dca500b72d4278b1e">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a0e74dabf0c175da5ebd5eed98e1a6fdd45c799/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_6715cddaacb59e440b915c7b7c74bcb830a819cb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_8a6d2e64c0e7782e3c8d27e623270a3be47ea549/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2804d6974058aee39a0a1327356754d02ecf8d6b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_733f8c0ac7bcc6b20c7f79b82c67ac1afe9b6bb9/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_898d930387a5ea17f4e0680b3262b015b132d6e2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_cecbf589e8214f718839623a17aed140be8811f4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.19.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.19.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.19.0_f6b9cfb19f8b35828dec3603b073d3cac01a8bd2/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.19.0_6a4866d473c21db85186be4bd9ee9d4b8e9b4b28.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_4537067276514ee15c9fc7659c9afa1d0fad8b11/classes.dex" />
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_2b31ee8877964b44324799753481a0868831a56b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_565036cbb8c27b8f0b1f8e347196bcb32cb0f302/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_2a517f73e315cdcd6469216c1d6c03f881ad2ffb/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_75561f10413aa97f271ed71bd690e007d7df7e4e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_a847bd56f2e44b31edda8585e497176e85f43ce9/classes.dex" />
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_c1e4ab1f29907127dd2b1049695938c114bc59bd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_0e025ad6a376934a89acb6a63609f7268dbd65a1/classes.dex" />
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_b43144421c60b271db93b785d47a1c58f9d2dbcd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_801071f9937c356da6940781e6e5f3c984c717b6/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_e25ca95dfb693d1f63602fc47e45f0e154bd6ee3.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_a89cc2ac518a1b0f7c88d90570631b61764c0eb1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_efa0cd1553aab4aba499540ee9226bef3e9db57b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_424b8910a836496c09b48453a367c6f37095c955/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_0a830b67847bf9e71727cd935ea7a6fda8b46580.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="1cff6f6f45b98ef5b196ce154cf0e6342d42cf26">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_89fa79ae53df2d96bbbf73289600132cb673e1bc/classes.dex" />
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_f1776651ba483d7418f362bb4111fd05e80c9925.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_d5068171c638e80ede75cf56e5c00feb8bfbee2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_87e707453142d3733303b1e9394a1328b601311d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_f455c72b5d917c6eda5256f94a8ed52305403b05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_b74c25fd38a300668ec15fd85751446ec2593d81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_45ff8b0cff49645a76115de4198e9a183e5be5f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_83fb1fbc6032118bd3a6c26b9221b4384da54c09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_96dcab7f5faed386b5238aaaf4f832053e89328f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2d4965c9f4054fca15e6baea0377240a325bde89/classes.dex" />
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a812ab7eae00c7e3beba2fb2a1b8b3663439991b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_beea27a4e78528e4c6042542a2c660d1bcdb953c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_963de985221213d6f6177a9da706b654eab61dec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\fyzha\Documents\GitHub\StandUp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_123c15f0773a04ed5d2e594b71d70ed15144cce3.jar" />
     </item>
 
 </items>

@@ -26,8 +26,8 @@
                 android:textSize="75dp"
                 android:gravity="center_vertical"
                 android:textColor="@color/orchid" />
-        </LinearLayout>
-        -->
+        </LinearLayout> -->
+
     </RelativeLayout>
 
     <ListView

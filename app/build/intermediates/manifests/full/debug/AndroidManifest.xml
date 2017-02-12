@@ -17,11 +17,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+        <activity
+            android:name="cs3500.android.standup.MainActivity"
+            android:label="Stand Up" >
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id" />
 
-        <activity android:name="cs3500.android.standup.ShowUp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

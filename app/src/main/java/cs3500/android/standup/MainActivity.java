@@ -153,12 +153,16 @@ public class MainActivity extends ActionBarActivity {
                 break;
         }
 
+
+
         if (null != fragment){
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction transaction = fragmentManager.beginTransaction();
             transaction.replace(R.id.main, fragment);
             transaction.commit();
         }
+
+
     }
 }
 
