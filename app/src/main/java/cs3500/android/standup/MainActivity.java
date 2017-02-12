@@ -37,8 +37,10 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //inherited behvaior
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         //initial component
         listViewSliding = (ListView) findViewById(R.id.lv_sliding_menu);
@@ -159,3 +161,9 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 }
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+#Sat Feb 11 23:22:33 EST 2017
+base.0=/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_89fa79ae53df2d96bbbf73289600132cb673e1bc
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a0e74dabf0c175da5ebd5eed98e1a6fdd45c799/classes.dex
+base.1=/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a0e74dabf0c175da5ebd5eed98e1a6fdd45c799
+file.0=/Users/baharsheikhi/Documents/Projects/StandUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_89fa79ae53df2d96bbbf73289600132cb673e1bc/classes.dex

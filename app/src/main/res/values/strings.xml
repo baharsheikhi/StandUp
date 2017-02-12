@@ -3,5 +3,6 @@
     <string name="app_name">Stand Up</string>
     <string name="drawer_opened">Opened</string>
     <string name="drawer_closed">Closed</string>
-
+    <string name="facebook_app_id">373113249733827</string>
+    <string name="fb_login_protocol_scheme">fb373113249733827</string>
 </resources>
