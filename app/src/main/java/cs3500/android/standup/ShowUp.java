@@ -3,11 +3,6 @@ package cs3500.android.standup;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.facebook.AccessToken;
@@ -18,15 +13,12 @@ import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.HttpMethod;
-import com.facebook.internal.CallbackManagerImpl;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
 import org.json.JSONObject;
 
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Arrays;
 
 /**
@@ -34,15 +26,13 @@ import java.util.Arrays;
  */
 
 public class ShowUp extends Activity {
-    private JSONObject jsonObject;
-    private MyDownloadTask downloadTask;
+    private JSONObject jsonObject1;
+    private JSONObject jsonObject2;
     private TextView info;
     private LoginButton loginButton;
     private CallbackManager callbackManager;
     private AccessToken accessToken;
 
-    public ShowUp() {
-    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,7 +66,21 @@ public class ShowUp extends Activity {
                         new GraphRequest.Callback() {
                             public void onCompleted(GraphResponse response) {
                         /* handle the result */
-                                Log.d("yo", "Response::" + String.valueOf(response.getJSONObject()));
+                                jsonObject1 = response.getJSONObject();
+
+                            }
+                        }
+                ).executeAsync();
+
+
+                new GraphRequest(accessToken,
+                        "162098460575843?fields=events,posts",
+                        null,
+                        HttpMethod.GET,
+                        new GraphRequest.Callback() {
+                            public void onCompleted(GraphResponse response) {
+                        /* handle the result */
+                                jsonObject2 = response.getJSONObject();
 
                             }
                         }
@@ -94,10 +98,17 @@ public class ShowUp extends Activity {
                 info.setText("Login attempt failed.");
             }
 
+
         });
 
-        //this.downloadTask = new MyDownloadTask("/v2.5/me");
-        //Log.d("yo", downloadTask.getJSON());
+    }
+
+    public JSONObject firstJSON() {
+        return this.jsonObject1;
+    }
+
+    public JSONObject secondJSON() {
+        return this.jsonObject2;
     }
 
     @Override
